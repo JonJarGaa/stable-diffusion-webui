@@ -17,7 +17,7 @@ txt2img:
   sampler_name: k_lms
   ddim_eta: 0.0  # legacy name, applies to all algorithms.
   n_iter: 1
-  batch_size: 1
+  batch_size: 999
   cfg_scale: 7.5
   # Leave blank for random seed:
   seed:
@@ -45,7 +45,7 @@ img2img:
   sampler_name: k_lms
   ddim_eta: 0.0
   n_iter: 1
-  batch_size: 1
+  batch_size: 999
   cfg_scale: 5.0
   denoising_strength: 0.75
   # 0: Keep masked area
