@@ -22,7 +22,7 @@ txt2img:
   # Leave blank for random seed:
   seed:
   height: 512
-  width: 512
+  width: 704
   # Textual inversion embeddings file path:
   fp:
 
@@ -58,7 +58,7 @@ img2img:
   # Leave blank for random seed:
   seed:
   height: 512
-  width: 512
+  width: 704
   # Textual inversion embeddings file path:
   fp:
 
